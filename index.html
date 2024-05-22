@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="book">
+        <div class="page" id="page1">
+            <h1>Page 1</h1>
+            <p>The temperature of an object, usually measured in degrees-Fahrenheit or degrees-Celsius, tells us how much heat, or energy, the object has. A boiling cup of water has very active molecules moving around very quickly and producing the heat we feel on our hands and faces. Colder objects don't have as much energy .</p>
+        </div>
+        <div class="page" id="page2">
+            <h1>Page 2</h1>
+            <p>This is the content of page 2.</p>
+        </div>
+    
+        <div class="page" id="page3">
+            <h1>Page 3</h1>
+            <p>This is the content of page 3 .</p>
+        </div>
+       
+        <div class="page" id="page4">
+          <h1>Page 4</h1>
+          <p>This is the content of page 4 .</p>
+        </div>
+    </div>
+    <div class="navigation">
+        <button id="prevButton" onclick="prevPage()">Previous</button>
+        <button id="nextButton" onclick="nextPage()">Next</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
